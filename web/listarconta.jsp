@@ -1,6 +1,6 @@
 <%-- 
-    Document   : Inserir
-    Created on : 07/10/2018, 19:45:37
+    Document   : listarconta
+    Created on : 09/10/2018, 20:02:47
     Author     : nerysoftware
 --%>
 
@@ -9,13 +9,9 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Conta Bancaria</title>
+        <title>JSP Page</title>
     </head>
     <body>
-        <form action="" method="post">
-          <label  
-            
-        </form>
-            
+        <h1>Hello World!</h1>
     </body>
 </html>

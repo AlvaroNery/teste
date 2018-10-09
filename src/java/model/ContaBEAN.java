@@ -2,7 +2,7 @@
 package model;
 
 
-public class ContaMODEL {
+public class ContaBEAN {
 
     /**
      * @return the id

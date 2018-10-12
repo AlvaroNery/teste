@@ -6,7 +6,7 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>Conta Bancaria</title>
+        <title>Cadastro de Usuário</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,17 +15,15 @@ and open the template in the editor.
 </head>
     <body>
 <div class="container">
-    <form action="logar" method="post">
-            <h1>ENTRE AQUI NA SUA CONTA</h1>
-            <p>NUMERO DA CONTA:<input type="text" name="NumeroConta" class="form-control" /> </p>
-            
-             <a href="cadastro.html">Não tem conta?Clique aqui</a>
+    <form action="Cadastrar" method="post">
+            <h1>Cadastro Conta Corrente</h1>
+            <p>Numero da Conta:<input type="text" name="NumeroConta" class="form-control" /> </p>
+            <p>CPF DO TITULAR:<input type="text" name="CPF_Titular" class="form-control" /></p>
+             
                <p><input type="submit" value="CONFIRMAR" class="btn btn-default" /></p>
         </form>
-    <center> <img src="bancos.png" alt="Italian Trulli"></center>
-    <center> <footer>
-   © Nery Software
-        </footer></center>
+    
+      <center> <img src="bancos.png" alt="Italian Trulli"></center>
 </div>
     </body>
 </html>
